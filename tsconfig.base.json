@@ -1,0 +1,49 @@
+{
+    // Visit https://aka.ms/tsconfig.json to read more about this file
+  
+    "exclude": [
+      "**/.*/",
+      "**/node_modules"
+    ],
+  
+    "compilerOptions": {
+      // Project Options
+  
+      "composite": true,
+      "declarationMap": true,
+      "jsx": "react",
+      "lib": [
+        "DOM",
+        "ES2015",
+      ],
+      "module": "ESNext",
+      "sourceMap": true,
+      "target": "ESNext",
+  
+      // Strict Checks
+  
+      "strict": true,
+      "useUnknownInCatchVariables": false,
+  
+      // Module Resolution
+  
+      "esModuleInterop": true,
+      "moduleResolution": "Node",
+  
+      // Linter Checks
+  
+      "allowUnreachableCode": false,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+  
+      // Advanced
+  
+      "disableSourceOfProjectReferenceRedirect": false,
+      "emitDeclarationOnly": true,
+      "forceConsistentCasingInFileNames": true,
+      "noErrorTruncation": true,
+      "skipLibCheck": true
+    }
+  }
+  

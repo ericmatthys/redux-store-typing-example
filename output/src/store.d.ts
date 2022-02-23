@@ -1,0 +1,3 @@
+declare const store: import("@reduxjs/toolkit").EnhancedStore<any, import("redux").AnyAction, import("@reduxjs/toolkit").MiddlewareArray<import("redux-thunk").ThunkMiddleware<any, import("redux").AnyAction, null> | import("redux-thunk").ThunkMiddleware<any, import("redux").AnyAction, undefined> | import("redux").Middleware<{}, any, import("redux").Dispatch<import("redux").AnyAction>>>>;
+export default store;
+//# sourceMappingURL=store.d.ts.map
